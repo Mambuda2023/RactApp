@@ -15,4 +15,4 @@ const JournalItem = ({ title, text, date }) => {
     </>
   );
 };
-export default JournalItem;
+export default JournalItem
