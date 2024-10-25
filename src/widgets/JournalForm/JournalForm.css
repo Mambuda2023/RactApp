@@ -1,0 +1,22 @@
+.journal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 400px;
+  padding: 10px;
+}
+
+.journal-form > input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px 15px;
+  color: white;
+  border-radius: 8px;
+}
+.journal-form > textarea {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 10px 15px;
+  width: 100%;
+  min-height: 100px;
+}

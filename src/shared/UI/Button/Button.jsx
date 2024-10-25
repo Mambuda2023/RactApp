@@ -1,10 +1,9 @@
-import { memo, useState } from "react";
 import "./Button.css";
-const Button = (children) => {
-  const [text, setText] = useState('Сохранить')
-  const clicked = () => {
-    setText('Закрыть')
-  }
-  return <button className="button accent" onClick={clicked}>{text}</button>;
+const Button = ({ text, onClick }) => {
+  return (
+    <button className="button accent" onClick={onClick}>
+      {text}
+    </button>
+  );
 };
-export default memo(Button)
+export default Button;
